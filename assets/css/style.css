@@ -89,7 +89,7 @@
   position: relative;
   padding: 11px 35px;
   background: rgba(255, 255, 255, 0.8);
-  background-color: black; 
+  color: black; 
   border: 2px solid #4b3f72;
   font-weight: 600;
   font-size: 15px;
@@ -109,7 +109,7 @@
   position: relative;
   padding: 11px 35px;
   background: none;
-  background-color: black;
+  color: black;
   border: 2px solid #4b3f72;
   font-weight: 600;
   font-size: 15px;
