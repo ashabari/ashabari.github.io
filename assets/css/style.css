@@ -600,6 +600,11 @@ small {
     text-align: center;
     margin: 0 auto;
   }
+
+  #contact a {
+  text-transform: none !important;
+}
+
   #intro.section {
     background-position-x: 30%;
   }
