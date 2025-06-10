@@ -1,17 +1,22 @@
+@import url(https://fonts.googleapis.com/css?family=Poiret+One);
+
+.white-box {
+  background-color: rgba(255, 255, 255, 0.85);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
 .profile-pic {
   position: relative;
-  max-width:130px;
-  max-height:130px;
+  max-width: 130px;
+  max-height: 130px;
   width: auto;
   height: auto;
   overflow: hidden;
-  /* display: inline-block; */
-  
-  
-  /* background-size: cover;  */
-  margin: -31px; 
-  margin-left:-7px;
-  border: 6px solid rgba(0, 77, 64, 0.4); 
+  margin: -31px;
+  margin-left: -7px;
+  border: 6px solid rgba(0, 77, 64, 0.4);
   border-radius: 50% !important;
 }
 
@@ -21,19 +26,15 @@
 }
 
 .tracker {
-  /* visibility: hidden; */
   position: fixed;
-  /* margin-inline-end: auto;  */
-  bottom: 0; 
+  bottom: 0;
   right: 0;
 }
 
-@import url(https://fonts.googleapis.com/css?family=Poiret+One);
 .social {
   margin: 0 auto;
   width: auto;
   text-align: inherit;
-  /* padding: 10px; */
 }
 
 .icon-btn {
@@ -79,12 +80,11 @@
   background-color: black;
 }
 
-/* Buttons - Read Me, Contact Us */
 .readme {
   position: relative;
   padding: 11px 35px;
-  background: rgba(255, 255, 255, 0.8); /* Slightly transparent white */
-  color: #4b3f72; /* Soft violet for pastel compatibility */
+  background: rgba(255, 255, 255, 0.8);
+  color: #4b3f72;
   border: 2px solid #4b3f72;
   font-weight: 600;
   font-size: 15px;
@@ -121,82 +121,14 @@
   border-color: #4b3f72;
 }
 
-
-
-
-/*
-.readme {
-  position: relative;
-  padding: 11px 35px;
-  background: #fff;
-  color: #00796b;
-  border: 2px solid #fff;
-  font-weight: 600;
-  font-size: 15px;
-  letter-spacing: 1px;
-  display: inline-block;
-  border-radius: 5px;
-  -webkit-border-radius: 5px;
-} */
-
-/* .readme:hover{
-  color: white;
-  background-color: #00796b;
-} */
-/*
-.contactme {
-  position: relative;
-  padding: 11px 35px;
-  background: none;
-  color: #fff;
-  border: 2px solid #fff;
-  font-weight: 600;
-  font-size: 15px;
-  letter-spacing: 1px;
-  display: inline-block;
-  margin-top: 1.5em;
-  border-radius: 5px;
-  -webkit-border-radius: 5px;
-}
-
-.contactme:hover{
-  color: #00796b;
-  background-color: white;
-}*/
-/* main body */
-
-/* body-color */
-
 body {
   color: #333;
   font-size: 18px;
 }
 
-/* body {
-  color: black;
-  font-size: 18px;
-} */
-
-/* main a -- links */
-
-/* a {
-  color: #009688;
-} */
-
 a {
   color: #004d40;
 }
-
-/* main blockqoute */
-
-/* blockquote {
-  border-left: 5px solid #795548;
-  color: #795548;
-  font-size: 125%;
-  font-weight: 400;
-  margin: 20px 0;
-  padding-left: 1.5rem;
-} */
 
 blockquote {
   border-left: 5px solid #795548;
@@ -216,19 +148,11 @@ blockquote * {
   text-align: center;
 }
 
-/* main nav */
-
 nav {
   background: white;
   box-shadow: none;
   height: 0;
 }
-
-/* nav {
-  background: rgb(149, 126, 212);
-  box-shadow: none;
-  height: 0;
-} */
 
 nav i {
   padding: 0 15px;
@@ -236,24 +160,11 @@ nav i {
   top: 5px;
 }
 
-/* main */
-
-/* main {
-  background: url(../../assets/img/bg.png) repeat;
-  padding-left: 190px;
-} */
-/*
-main {
-  background: url(../../assets/img/bg.png) repeat;
-  padding-left: 190px;
-}
-*/
 main {
   background: url('/assets/img/BackgroundImage.png') no-repeat center center fixed;
   background-size: cover;
   padding-left: 190px;
 }
-
 
 dl {
   margin-top: 0.5rem;
@@ -278,14 +189,6 @@ ul.side-nav li {
   padding: 0;
 }
 
-/* ul.side-nav.fixed a {
-  box-sizing: content-box;
-  color: rgb(48, 122, 207);
-  display: block;
-  line-height: 100%;
-  padding: 10px 0 12px;
-} */
-
 ul.side-nav.fixed a {
   box-sizing: content-box;
   color: rgb(16, 202, 56);
@@ -298,14 +201,6 @@ ul.table-of-contents li.logo a.active, ul.table-of-contents li.logo a:hover {
   border: none;
   font-weight: 200;
 }
-
-/* ul.side-nav.fixed li.logo {
-  background-color: #fafafa;
-  border-bottom: 1px solid #ddd;
-  box-sizing: content-box;
-  min-height: 90px;
-  padding: 30px 30px 40px;
-} */
 
 ul.side-nav.fixed li.logo {
   background-color: #fafafa;
@@ -363,24 +258,9 @@ h3 {
   height: 100vh;
 }
 
-/* Original */
-
 #intro.section .container *:not(span) {
   text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
 }
-
-/*#intro.section {
-  background: transparent; */
-  /*background: #a7ffeb repeat;*/
-/*  position: relative;
-}*/
-
-/* #intro.section {
-  background: url(../../assets/img/white-ai-wallpaper.jpg) no-repeat top center/cover;
-  position: relative;
-} */
-
-
 
 #intro.section .container {
   color: white;
@@ -390,18 +270,9 @@ h3 {
   top: 0;
 }
 
-/* #intro.section .container *:not(span) {
-  font-weight: 300;
-  line-height: 150%;
-  padding: 0 30px;
-  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
-} */
-
 #intro.section .container *:not(span) {
   font-weight: 300;
-  /* font-weight: 400; */
   line-height: 150%;
-  /* padding: 0 0px; */
   text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
 }
 
@@ -423,8 +294,6 @@ h3 {
 }
 
 .waves-effect.waves-blue .waves-ripple {
-  /* The alpha value allows the text and background color
-   of the button to still show through. */
   background-color: rgba(33, 150, 243, 0.2);
 }
 
@@ -524,12 +393,6 @@ a.hoverline {
   -webkit-transition: 0.25s all;
 }
 
-/* main a.hoverline */
-
-/* a.hoverline:hover {
-  border-bottom: 3px solid #24305e !important;
-} */
-
 a.hoverline:hover {
   border-bottom: 3px solid #004d40 !important;
 }
@@ -604,35 +467,16 @@ small {
   color: #666 !important;
 }
 
-/* main .teal-text */
-
 .teal-text {
-  color: #4b3f72 !important; /* Soft violet for pastel compatibility */
+  color: #4b3f72 !important;
 }
 
-/*.teal-text {
-  color: #008073 !important;
-}*/
-
-/* .teal-text {
-  color: #0b5e86 !important;
-} */
-
-/* .teal */
 .teal {
   background-color: rgba(255, 255, 255, 0.75) !important;
   color: #333 !important;
   backdrop-filter: blur(4px);
   border-radius: 8px;
 }
-/*
-.teal {
-  background-color: #008073 !important;
-}  */
-
-/* .teal {
-  background-color: #00695c !important;
-} */
 
 @media (min-width: 1200px) {
   #experience .container {
